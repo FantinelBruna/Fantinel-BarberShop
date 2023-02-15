@@ -353,7 +353,7 @@ input {
 
 footer {
     text-align: center;
-    background: url(bg.jpg);
+    background: url("bg.jpg");
     padding: 20px;
     border-top:rgb(0, 0, 0) 5px solid;
 }
