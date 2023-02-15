@@ -1,0 +1,85 @@
+<html lang="pt-br">
+
+    <head>
+        <title> Fantinel BarberShop </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="home.css">
+    </head>
+
+    <body class="home">
+        <header>
+            <div class="caixa-cadastro">
+                <h1><img src="images/logo.png" alt="logo Fantinel BarberShop"></h1>
+            </div>
+        </header>
+
+        <main>
+            <h3 class="titulosecu">Estamos a disposição para você!</h3>
+            <ul class="servicos">
+                <li>
+                    <h2>Cabelo</h2>
+                    <img src="images/cabelo.jpg">
+                    <p class="servico-preco">R$ 25,00</label></p>
+                </li>
+                <li>
+                    <h2>Barba</h2>
+                    <img src="images/barba.jpg">
+                    <p class="servico-preco">R$ 18,00</p>
+                </li>
+                <li>
+                    <h2>Cabelo + Barba</h2>
+                    <img src="images/cabelo+barba.jpg">
+                    <p class="servico-preco">R$ 35,00</p>
+                </li>
+            </ul>
+        </main>
+
+        <fieldset class="oqueagendar">
+            <legend>O que você desejar agendar? </legend>
+            
+            <label for="agendar-cabelo"  class="input-padrao"><input type="radio" name="agendar" id="agendar-cabelo">Cabelo + Barba</label>
+            <label for="agendar-barba"  class="input-padrao"><input type="radio" name="agendar" id="agendar-barba" >Barba</label>
+            <label for="agendar-ambos"  class="input-padrao"><input type="radio" name="agendar" id="agendar-ambos" ></input>Cabelo</label>
+        </fieldset>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>TER</th>
+                    <th>QUA</th>
+                    <th>QUI</th>  
+                    <th>SEX</th>
+                    <th>SÁB</th>
+                </tr>
+            </thead>
+            <tbody>                   
+                <tr>
+                    <th>       </th>
+                    <th>8am - 11:30am</th>
+                    <th>8am - 11:30am</th>  
+                    <th>8am - 11:30am</th>
+                    <th>8am - 11:30am</th>
+                </tr>
+                <tr>
+                    <th>2pm - 8pm</th>
+                    <th>2pm - 8pm</th>
+                    <th>2pm - 10pm</th>  
+                    <th>2pm - 11pm</th>
+                    <th>2pm - 10pm</th>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+        <fieldset class="zipzip">
+            <legend>Como prefere o nosso contato com você? </legend>
+            
+            <label for="radio-email"  class="input-padrao"><input type="radio" name="contato" id="radio-email">Email</label>
+            <label for="radio-telefone"  class="input-padrao"><input type="radio" name="contato" id="radio-telefone" >Chamada de voz</label>
+            <label for="radio-mensagem"  class="input-padrao"><input type="radio" name="contato" id="radio-mensagem" ></input>WhatsApp </label>
+        </fieldset>
+
+    </body>
+</html>

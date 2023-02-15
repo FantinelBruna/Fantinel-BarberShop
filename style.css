@@ -1,0 +1,379 @@
+/*header padrao*/
+header {
+    background: #8a8a8a;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+nav {
+    position: absolute;
+    top:110px;
+    right: 0px;
+}
+
+nav li {
+
+    display: block;
+    margin: 0 0 0 0px;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(119, 52, 52);
+    text-decoration: underline;
+}
+
+
+/*pagina de home
+.home {
+    margin: 0px;
+    padding: 0px;
+}*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.banner {
+    width: 100%;
+    border-bottom: black solid 4px;
+    border-top: black solid 4px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.utensilios {
+    width: 150px;
+    float: left;
+    margin: 10px 20px 20px 130px;
+    
+}
+
+.principal {
+    padding: 1em 0;
+    background: #ece7e7;
+    
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal p {
+    padding-top: 15px;
+    margin: 0px 130px 0px  0px;
+}
+
+em {
+    text-align: center;
+}
+
+em strong {
+    font-size: large;
+}
+
+.mapa p {
+    text-align: center;
+    margin: 0 0 2em;
+}
+
+.mapa {
+    padding: 3em 3em;
+    background: linear-gradient(#b1aeae #888888);
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
+.beneficios {
+    background: #b1aeae;
+    padding: 20px;
+    padding: 3em 3em;
+}
+
+.itens {
+    font-size: medium;
+
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    display: inline-block;
+    width: 40%;
+   vertical-align: top;
+}
+
+.barbeiroimg {
+   width: 50%; 
+}
+
+
+/*pagina de serviços*/
+.servicos {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.servicos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0% 1.5%;
+    padding: 30px, 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.servicos li:hover {
+    border-color: rgb(119, 52, 52);
+
+}
+
+.servicos li:active {
+    border-color: rgb(119, 52, 52);
+    color:rgb(119, 52, 52);
+}
+
+.servicos li:hover h2 {
+    font-size: 25px;
+}
+
+.servicos li:hover p {
+    font-size: 22px;
+}
+
+.servicos h2 {
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.servico-bio {
+    font-size: 20px;
+    padding: 7PX;
+}
+
+.servico-preco {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+
+/*footer padrao*/
+footer {
+    text-align: center;
+    background: url(images/bg.jpg);
+    padding: 20px;
+}
+
+.rodape {
+    color: white;
+    font-size: small;
+    margin-top: 0px 10px;
+    position:relative;
+}
+
+
+/*pagina de contato*/
+.input-style {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.superior {
+    text-align: center; 
+}
+
+form {
+    margin: 40px 0px;
+}
+
+form input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.superior label {
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.superior label {
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+input {
+    padding: 7px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#chackboxilabel {
+    font-size: 17px; 
+}
+
+.checkboxi {
+    display: inline;
+    margin-bottom: 20px;
+    width: 5%;
+}
+
+.zipzip {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 240px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.zipzip legend {
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.zipzip input {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+ 
+    
+}
+
+/*.zipzip label {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 17px;
+    width: 20px;
+
+}*/
+
+.buton-email {
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+}
+
+.input-padrao {
+    display: inline-block;
+    margin: 10px 10px 10px;
+    padding: 10px 25px;
+    
+
+}
+
+#enviar {
+    width: 30%;
+    background:rgb(180, 180, 180);
+    border-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    padding: 10x 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#enviar:hover {
+    background: #cac7c7; 
+    font-size: 14px;
+}
+
+table {
+    margin: 20px 0px 40px;
+}
+
+thead {
+    background: #c2c2c2;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding-left: px;
+    padding-right: 10px;
+}
+
+.horario{
+    text-align: center;
+}
+
+
+
+
+
+
+.marcarhorario {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    border:rgb(0, 0, 0) solid 2px;
+    padding: 10px;
+    margin-left: 390px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.marcarhorario:hover {
+    border-color: rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    background-color:#af5555;
+
+   
+}
+.marcarhorario:active {
+    border-color: rgb(175, 85, 85);
+
+}
+
+.marcarhorario:hover h2 {
+    font-size: 25px;
+}
