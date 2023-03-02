@@ -127,7 +127,7 @@ form input {
     text-align: center;
 }
 
-input {
+.superior input {
     padding: 7px;
     margin: 0 auto;
     width: 50%;
@@ -135,12 +135,11 @@ input {
 
 #chackboxilabel {
     font-size: 17px; 
+    margin: 1.5em;
 }
 
 .checkboxi {
-    display: inline;
-    margin-bottom: 20px;
-    width: 5%;
+    margin: 2em;
 }
 
 
@@ -313,6 +312,7 @@ input {
 
 .beneficios {
     padding-bottom: 3em;
+    text-align: center;
 }
 
 .itens {
@@ -348,12 +348,11 @@ input {
     background: rgb(56, 56, 56);
 }
 
-
 /* footer */
 
 footer {
     text-align: center;
-    background: url("bg.jpg");
+    background: url(images/bg.jpg);
     padding: 20px;
     border-top:rgb(0, 0, 0) 5px solid;
 }
@@ -383,3 +382,38 @@ footer {
     padding-bottom: 2em;
 }
 
+.oqueagendar{
+    display: flex;
+    gap: 218px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.oqueagendar label {
+    font-size: 20px;
+}
+
+.oqueagendar input {
+    margin: 10px
+}
+
+.tabela {
+    display: flex;
+    padding: 3em;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 0px auto;
+    flex-wrap: wrap;
+
+    width: 70%;
+    text-align: center;
+}
+
+thead {
+    background: red;
+}
